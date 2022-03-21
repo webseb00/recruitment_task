@@ -1,11 +1,11 @@
 # Getting Started with Create React App
 
 This project was created with [Create React App](https://github.com/facebook/create-react-app) and
-Bootstrap 5 [Bootstrap 5](https://getbootstrap.com/).
+[Bootstrap 5](https://getbootstrap.com/).
 
 ## Live link:
 
-Link [Link](https://compassionate-haibt-7f7d6d.netlify.app/)
+[Link](https://compassionate-haibt-7f7d6d.netlify.app/)
 
 ## Available Scripts
 
