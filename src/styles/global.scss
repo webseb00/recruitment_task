@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+$facebook-color: #3b5998;
+$twitter-color: #1DA1F2;
+$youtube-color: #FF0000;
+$instagram-color: #833AB4;
+
+$secondary: #34495e;
+
+@import '~bootstrap/scss/functions';
+@import 'variables';
+@import '~bootstrap/scss/bootstrap';
+@import 'posts';
+@import 'post';
+@import 'comments';
+@import 'alert-box';
+@import 'sidebar';
+@import 'add-post';
+@import 'notFoundPage';
+@import 'footer';
+
+// GENERAL APP STYLES 
+
+*,
+*::after,
+*::before {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: $gray-100;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  min-height: 100vh;
+}
+
+p {
+  margin: 0;
+}
+
+.infinite-scroll-component {
+  .spinner-border {
+    margin: 2rem 0;
+  }
+}
+
+.app-center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-title {
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.app-text {
+  color: $gray-600;
+  line-height: 1.2;
+}
+
+.app-link {
+  outline: none;
+  border: none;
+  transition: all .4s ease-in;
+  padding: .4rem;
+
+  & > svg {
+    font-size: 1.85rem;
+    transition: all .4s ease-in;
+  }
+}
+
+.pb-6 { padding-bottom: 6rem; }

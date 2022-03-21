@@ -1,0 +1,54 @@
+.app-post {
+  margin: 2rem 0;
+  padding: 1.5rem;
+
+  &__header {
+    margin-bottom: 1rem;
+  }
+
+  &__divider {
+    width: 120px;
+    height: 4px;
+    margin: 2rem auto;
+    background: #34495e;
+    display: block;
+  }
+
+  &__body p {
+    text-align: justify;
+  }
+
+  &__footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid;
+    
+    .app-link svg {
+      margin-right: 2px;
+    }
+  
+    .app-link:hover svg {
+      margin-right: 10px;
+    }
+  }
+
+  &__social {
+    display: inline-block;
+    transition: all .2s ease-in;
+
+    & > svg {
+      width: 40px;
+      height: 40px;
+    }
+    
+    &:hover {
+      opacity: .6;
+    }
+
+    .fb-color { color: $facebook-color; }
+    .tw-color { color: $twitter-color; }
+    .yt-color { color: $youtube-color; }
+    .inst-color { color: $instagram-color; }
+
+  }
+}

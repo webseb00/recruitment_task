@@ -1,0 +1,43 @@
+.app-posts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  @media screen and (max-width: 960px) {
+    grid-template-columns: 1fr;
+  }
+
+  &__item {
+    background: $white;
+    text-align: center;
+    display: flex;
+    min-height: 200px;
+    border: 1px solid $gray-300;
+    border-radius: 10px;
+    padding: 1.25rem;
+    cursor: pointer;
+    transition: all .4s ease-in;
+
+    &:hover {
+      box-shadow: $box-shadow-sm;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .app-link {
+    background: $primary;
+    color: $white;
+  }
+
+  .app-link svg {
+    margin-left: 2px;
+  }
+
+  .app-link:hover svg {
+    margin-left: 10px;
+  }
+}

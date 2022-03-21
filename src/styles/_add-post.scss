@@ -1,0 +1,19 @@
+.app-addPost {
+  height: 100vh;
+  
+  &__form {
+    width: 100%;
+    background: $white;
+    padding: 1rem;
+    border-radius: $border-radius-lg;
+    box-shadow: $box-shadow-sm;
+
+    @media screen and (min-width: 768px) {
+      width: 70%;
+    }
+
+    textarea {
+      height: 140px;
+    }
+  }
+}

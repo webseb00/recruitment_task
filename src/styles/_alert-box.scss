@@ -1,0 +1,12 @@
+.app-toast {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  padding: .5rem;
+  border-radius: $border-radius-lg;
+
+  svg {
+    margin-left: 5px;
+    font-size: 1.2rem;
+  }
+}

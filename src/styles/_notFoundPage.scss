@@ -1,0 +1,39 @@
+.app-notFoundPage {
+  height: 100vh;
+  line-height: .8;
+  padding-bottom: 3rem;
+  
+  &__image {
+    width: 100%;
+    max-width: 470px;
+    height: auto;
+  }
+
+  h5 {
+    font-size: 2.8rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    letter-spacing: 4px;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  a {
+    background: $primary;
+    width: 100%;
+    max-width: 400px;
+    padding: .8rem;
+    margin-top: 1.2rem;
+    box-shadow: $box-shadow-sm;
+    color: $white;
+    transition: all .2s ease-in;
+    opacity: 1;
+
+    &:hover {
+      opacity: .8;
+      box-shadow: $box-shadow;
+    }
+  }
+}

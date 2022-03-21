@@ -1,0 +1,39 @@
+.app-comments {
+  background: $gray-200;
+  padding: 1.5rem;
+}
+
+// SINGLE COMMENT COMPONENT STYLES
+
+.app-comment {
+  border-radius: 5px;
+  background: var(--bs-gray-100);
+  padding: .4rem;
+  margin-bottom: 1rem;
+  box-shadow: $box-shadow-sm;
+
+  &__icon svg {
+    margin-right: 10px;
+    font-size: 1.8rem;
+    color: $secondary;
+
+    @media screen and (min-width: 592px) {
+      font-size: 2.4rem;
+    } 
+  }
+}
+
+// ADD COMMENT COMPONENT STYLES
+
+.app-addComment {
+  margin-top: 3rem;
+  padding: .8rem;
+  border-radius: 5px;
+  background: $gray-100;
+
+  textarea {
+    margin: .8rem 0;
+    height: 120px;
+    resize: none;
+  }
+}
